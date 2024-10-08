@@ -97,8 +97,11 @@ img {
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
-
+.home{
+  height: 100vh;
+}
 /*===== LAYOUT =====*/
 .bd-grid {
   max-width: 1024px;
