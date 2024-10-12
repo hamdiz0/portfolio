@@ -97,7 +97,6 @@ img {
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 .home{
   height: 100vh;
@@ -189,7 +188,7 @@ img {
 .home {
   position: relative;
   row-gap: 5rem;
-  padding: 5rem 0 5rem;
+  padding: 4rem 0 4rem;
 }
 .home__data {
   align-self: center;
@@ -202,8 +201,10 @@ img {
   color: var(--first-color);
 }
 .home__social {
-  display: flex;
-  flex-direction: column;
+  padding-top: 0;
+  padding-bottom: 2.5rem;
+  flex-direction: row;
+  align-self: flex-end;
 }
 .home__social-icon {
   width: max-content;
@@ -222,6 +223,10 @@ img {
 }
 .home__blob {
   fill: var(--first-color);
+}
+.home__blob {
+  position: relative;
+  bottom: 12rem;
 }
 .home__blob-img {
   width: 360px;
@@ -420,6 +425,9 @@ img {
     width: 300px;
     bottom: 25%;
   }
+  .home__blob {
+    position: unset;
+  }
   .about__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -450,6 +458,7 @@ img {
   .section {
     padding-top: 4rem;
     padding-bottom: 3rem;
+    height: 100vh;
   }
   .section-title {
     margin-bottom: var(--mb-6);
@@ -482,6 +491,9 @@ img {
   .home__img {
     width: 400px;
     bottom: 10%;
+  }
+  .home__blob {
+    position: unset;
   }
   .about__container {
     padding-top: 2rem;
@@ -525,5 +537,8 @@ img {
   .skills__text {
     margin-bottom: var(--mb-4);
     font-size: 20px ;
+  }
+  .home__blob {
+    position: unset;
   }
 }
