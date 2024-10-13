@@ -188,10 +188,10 @@ img {
 .home {
   position: relative;
   row-gap: 5rem;
-  padding: 4rem 0 4rem;
+  padding: 2rem 0 4rem;
 }
 .home__data {
-  align-self: center;
+  height: fit-content;
 }
 .home__title {
   font-size: var(--big-font-size);
@@ -226,7 +226,7 @@ img {
 }
 .home__blob {
   position: relative;
-  bottom: 12rem;
+  bottom: 11rem;
 }
 .home__blob-img {
   width: 360px;
